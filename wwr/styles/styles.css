@@ -1,0 +1,127 @@
+/* Font Import*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Contrail+One&family=Staatliches&display=swap');
+
+/*Selector for entire page */
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+#hero-msg h1, #hero-msg h4, .button-box, main section {
+    text-align: center;
+}
+main section img {
+    box-sizing: border-box;
+}
+h2 {
+    font-family: 'Contrail One', Verdana, Tahoma, sans-serif;
+}
+#background {
+    height: 725px;
+}
+body {
+    background-color: #9699B4ff;
+    color:white;
+    font-family: 'Cabin', Verdana, Tahoma, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #114134ff;
+    font-family: 'Contrail One', Verdana, Tahoma, sans-serif;
+}
+#background {
+    background-color: #9699B4ff;
+}
+.msg {
+    background-color: #9699B4ff;
+    line-height: 1.5em;
+    padding: 35px;
+}
+.msg h2 {
+    color: white;
+    font-family: 'Contrail One', Verdana, Tahoma, sans-serif;
+}
+.msg p {
+    color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+.book, .join {
+    background-color: #9699B4ff;
+    color:white;
+    text-decoration:none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.book:hover, .join:hover {
+    background-color: #396E94;
+    color:white
+}
+nav a:hover {
+    background-color: #396E94;
+    color:white;
+}
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration:none;
+    padding: 35px;
+}
+.home-title {
+    color: white;
+    font-family: 'Contrail One', Verdana, Tahoma, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+h4 {
+    color: white;
+}
+footer {
+    background-color: #114134ff;
+    color:white;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer a {
+    color: white;
+    text-decoration:none;
+}
+footer a:hover {
+    color: white
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.icon {
+    padding-top: 10px;
+}
+.logo, .icon {
+    width:80px;
+}
+#logo_link {
+    padding-top: 5px;
+}
+#hero-img {
+    width:100%;
+}
+.rivers_card {
+    margin: 200px 0;
+}
+.camping-card {
+    margin: 200px 0;
+}
+.rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #114134ff;
+}

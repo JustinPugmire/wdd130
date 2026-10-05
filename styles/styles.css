@@ -1,0 +1,34 @@
+img {
+   width: 70%;
+   border-radius: 15px;
+}
+body {
+    background-color: lightblue;
+    text-align: center;
+    margin: 0;
+}
+
+#content {
+    
+}
+/* navigation */
+header, footer {
+    background-color: lightgray;
+    padding: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: purple;
+}
+#second {
+    font-size: 3em;
+}
+
+.emphasis {
+    color: darkgoldenrod;
+}
