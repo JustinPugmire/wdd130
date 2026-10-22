@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Grenze+Gotisch:wght@100..900&display=swap');
+
+body {
+    text-align: center;
+    background-color: rgb(37, 36, 36);
+    color: white;
+}
+
+ul {
+    font-size: 1.5em;
+}
+
+ul, p {
+    font-family: "Grenze Gotisch", Roboto;
+}
+
+h1, h2 {
+    font-family: "Creepster", Roboto;
+}
+
+h1 {
+    font-size: 4.5em;
+    background-color: rgb(170, 113, 0);
+    border: solid rgb(95, 64, 2);
+    border-width: 4px;
+    padding: 20px;
+    max-width: 90%;
+    margin: 3% auto;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+footer, header {
+    background-color: rgb(112, 76, 4);
+    border: solid rgb(170, 113, 0);
+    color: white;
+}
+
+header {
+    font-size: 1.5em;
+}
+
+li:hover {
+    background-color: rgb(170, 113, 0);
+}
+
+footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+section {
+    max-width: 80%;
+    background-color: rgb(170, 113, 0);
+    border: solid rgb(95, 64, 2);
+    border-width: 4px;
+    margin: 20px auto;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+img {
+    max-width: 85%;
+    border: solid rgb(112, 76, 4);
+    margin: 0 auto;
+}
