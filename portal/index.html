@@ -4,56 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JP Portal Page</title>
+    <link href="styles/styles.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav>
-
-            <div class="nav-logo">
-                <img src="images/exec-f83a19d1-0831-47fa-b8c4-3ffa899668f5.png" alt="Website Logo">
-            </div>
-
-            <ul class="header-links">
-                <li><a href="https://google.com" target="_blank">About Me</a></li>
-                <li><a href="https://google.com" target="_blank">Contact Me</a></li>
-            </ul>
-        </nav>
+        <img src="images/exec-f83a19d1-0831-47fa-b8c4-3ffa899668f5.png" alt="Website Logo" class="nav-logo">
+        
+        <h3 class="about-me"><a href="https://google.com" target="_blank">About Me</a></h3>
+        <h3 class="contact-me"><a href="https://google.com" target="_blank">Contact Me</a></h3>
     </header>
-</body>
+
 
     <div class="main-title">
-        <h1 class="Title">Justin Pugmire HTML Portal Page</h1>
+        <h1 class="title">Justin Pugmire HTML Portal Page</h1>
         <h2 class="subtitle">Use the dropdowns below for navigation.</h2>
     </div>
 
+    <h3 class="section-subtitle">Website Links</h3>
+
     <div class="main-nav">
-        <button class="dropbtn">WWR Projects</button>
+        <div class="dropdown">
+            <button class="dropbtn">WWR Projects</button>
 
-        <div class="WWR dropdown">
-            <a href="https://google.com" target="_blank">WWR Planning Page</a>
-            <a href="https://google.com" target="_blank">WWR Main Page</a>
+            <div class="WWR-dropdown">
+                <a href="https://google.com" target="_blank">WWR Planning Page</a>
+                <a href="https://google.com" target="_blank">WWR Main Page</a>
+            </div>
         </div>
 
-        <div class="ICE dropdown">
-            <a href="https://google.com" target="_blank">Prophet Card</a>
-            <a href="https://google.com" target="_blank">Favorite Devotional</a>
-            <a href="https://google.com" target="_blank">Halloween Page</a>
-        </div>
+        <div class="dropdown">
+            <button class="dropbtn">ICE Projects</button>
 
-        <div class="misc dropdown">
-            <a href="https://google.com" target="_blank">First Test Page</a>
+            <div class="ICE-dropdown">
+                <a href="https://google.com" target="_blank">Prophet Card</a>
+                <a href="https://google.com" target="_blank">Favorite Devotional</a>
+                <a href="https://google.com" target="_blank">Halloween Page</a>
+            </div>
         </div>
+        <div class="dropdown">
+            <button class="dropbtn">Misc Projects</button>
 
+            <div class="misc-dropdown">
+                <a href="https://google.com" target="_blank">First Test Page</a>
+            </div>
+        </div>
     </div>
 
+    <h3 class="section-subtitle">More Information</h3>
+
     <div class="main-paragraph">
-        <p class="Paragraph-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ligula elit, aliquet ac purus ut, tristique auctor velit. Mauris neque sapien, ultrices egestas urna id, aliquet tempor arcu. Donec pulvinar consectetur elementum.</p>
+        <p class="paragraph-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ligula elit, aliquet ac purus ut, tristique auctor velit. Mauris neque sapien, ultrices egestas urna id, aliquet tempor arcu. Donec pulvinar consectetur elementum.</p>
 
         <!--<img class="Image-1"> src="Placeholder" alt="Placeholder" </img>-->
+
+        <h3 class="placeholder-1">Image Placeholder</h3>
 
         <p class="paragraph-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ligula elit, aliquet ac purus ut, tristique auctor velit. Mauris neque sapien, ultrices egestas urna id, aliquet tempor arcu. Donec pulvinar consectetur elementum.</p>
 
         <!--<img class="Image-2"> src="Placeholder" alt="Placeholder" </img>-->
+
+        <h3 class="placeholder-2">Image Placeholder</h3>
+
 
     </div>
 
@@ -62,12 +73,11 @@
 
             <h3 class="trademark">Justin Pugmire 2026</h3>
 
-            <ul class="footer-links">
-                <li><a href="https://google.com" target="_blank">About Me</a></li>
-                <li><a href="https://google.com" target="_blank">Contact Me</a></li>
-                <li><a href="https://google.com" target="_blank">Misc Link</a></li>
-            </ul>
+            <h3 class="about-me"><a href="https://google.com" target="_blank">About Me</a></h3>
+            <h3 class="contact-me"><a href="https://google.com" target="_blank">Contact Me</a></h3>
+            <h3 class="misc"><a href="https://google.com" target="_blank">Misc</a></h3>
 
         </footer>
     </div>
+</body>
 </html>
